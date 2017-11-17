@@ -1,0 +1,507 @@
+body{
+	margin:0;
+	padding:0;
+	font:12px "microsoft yahei",Arial;
+	color:#666;
+}
+ul,li,dl,dt,dd,p,h1,h2,h3,h4,h5,h6{
+	margin:0;
+	padding:0;
+	list-style:none;
+	outline:none;
+}
+a{
+	text-decoration:none;
+	color:#666;
+}
+a:hover{
+	text-decoration:underline;
+	color:#e4393c;
+}
+input,button{
+	border:0;
+}
+img{
+	vertical-align:bottom;
+}
+.lf{float:left;}
+.rt{float:right;}
+.clear{clear:both;}
+
+/*页面主题居中*/
+
+body{
+	background: #f0f0f0;
+}
+
+
+.top-box{
+	position:relative;
+	width: 1201px;
+	height: 600px;
+	margin:0 auto;
+}
+.top-box img{
+	width: 1200px;
+	height: 600px;
+}
+.top-box ul.uu{
+	position: fixed;
+	top: 0;
+	right: 0px;
+	width: 20px;
+	height:640px;
+	padding: 0 10px;
+	background: #000;
+}
+.top-box ul li{
+	width: 30px;
+	height:26px;
+	margin:10px 0;
+	cursor:pointer;
+}
+.top-box ul li:nth-child(1){
+	width: 16px;
+	height: 24px;
+	border:2px solid #fff;
+}
+.top-box ul li:nth-child(2){
+	width: 20px;
+	height: 96px;
+	color: #fff;
+	border-top:1px solid #fff;
+	border-bottom:1px solid #fff;
+}
+.top-box ul li:nth-child(2) b{
+	display: block;
+	width: 20px;
+	height: 20px;
+	margin-top: 10px;
+	background: url(../images/1_02.png) no-repeat -6px -46px;
+}
+.top-box ul li:nth-child(2) p{
+	height:26px;
+	text-align: center;
+}
+.top-box ul li:nth-child(3){
+	background: url(../images/1_02.png) no-repeat -8px -141px;
+}
+.top-box ul li:nth-child(4){
+	background: url(../images/1_02.png) no-repeat -8px -187px;
+}
+.top-box ul li:nth-child(5){
+	background: url(../images/1_02.png) no-repeat -8px -231px;
+}
+.top-box ul li:nth-child(6){
+	background: url(../images/1_02.png) no-repeat -8px -272px;
+}
+.top-box ul li:nth-child(7){
+	position: absolute;
+	right: 0px;
+	bottom: 40px;
+	background: url(../images/1_02.png) no-repeat -8px -618px;
+}
+.top-box ul li:nth-child(8){
+	position: absolute;
+	right: 0px;
+	bottom: -7px;
+	background: url(../images/1_02.png) no-repeat -8px -655px;
+}
+/**************五张图片**************/
+.top-main{
+	width: 1000px;
+	height: 346px;
+	margin:0 auto;
+	margin-top: 10px;
+}
+.top-main dl{
+	float: left;
+	margin-right: 11px;
+}
+.top-main dl dd{
+	cursor: pointer;
+}
+.top-main .one{
+	width:173px;
+	height:324px;
+	background: #fff;
+	padding: 8px;
+}
+.top-main .one dd{
+	width: 115px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	margin:16px auto;
+	border:1px solid #dadada;
+	background: #fff;
+}
+.top-main .two dd{
+	width: 115px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	margin:16px auto;
+	margin-top: 8px;
+	border:1px solid #dadada;
+	background: #fff;
+}
+.top-main .last{
+	margin-right:0;
+}
+/***********************/
+.nav{
+	width: 100%;
+	height: 96px;
+	background: #fff;
+}
+.nav ul{
+	width: 1000px;
+	height:50px;
+	margin:0 auto;
+	padding: 20px 0;
+}
+.nav ul li{
+	float: left;
+	margin: 0 17px;
+}
+.nav ul li:nth-child(9){
+	padding-right:0;
+}
+.nav ul li img{
+	padding-left:9px;
+}
+/**********************/
+.banner{
+	width: 1000px;
+	margin:0 auto;
+}
+.banner .ban-top{
+	width: 1000px;
+	height: 216px;
+}
+.banner .ban-top ul{
+	width: 1000px;
+	height: 216px;
+}
+.banner .ban-top ul li{
+	position: relative;
+	float: left;
+	width: 184px;
+	height: 216px;
+	line-height: 1.5;
+	padding: 62px 10px;
+
+}
+.banner .ban-top ul li b{
+	display: block;
+	width: 203px;
+	height: 6px;
+	margin:10px 0;
+	background: url(../images/xu.jpg) repeat;
+}
+.banner .ban-top ul li:nth-child(2) b{
+	margin:19px 0 10px 0;
+}
+.banner .ban-top ul li:nth-child(1){
+	width: 123px;
+	height: 216px;
+	padding:0;
+}
+.banner .ban-top ul li:nth-child(2){
+	width: 240px;
+	height: 100px;
+}
+.banner .ban-top ul li:nth-child(2) h2{
+	letter-spacing: 4px;
+	font-size: 18px;
+}
+.banner .ban-top ul li:nth-child(2) p{
+	text-indent: 12px;
+
+}
+
+.banner .ban-top ul li.li3{
+	width:100px;
+	height: 100px;
+}
+.banner .ban-top ul li.li3 h3{
+	color: #d4ae6f;
+}
+.banner .ban-top ul li.li3 h3 span{
+	font-size: 24px;
+	
+}
+.banner .ban-top ul li.li3 b{
+	width: 105px;
+}
+.banner .ban-top ul li.li3 p{
+	font-size:14px;
+}
+.banner .ban-top ul li.li3 div{
+	position: absolute;
+	top: 74px;
+	left: 0px;
+	width: 7px;
+	height: 71px;
+	background: url(../images/shu1.jpg) no-repeat;
+}
+.banner .ban-top ul li.li3 div.d1{
+	top: 74px;
+	left: -22px;
+}
+.banner .lunbo{
+	position: relative;
+	width: 1000px;
+	height: 340px;
+	overflow: hidden;
+}
+.banner .lunbo dl dt{
+	float: left;
+	width: 638px;
+	height: 340px;
+	
+}
+/**轮播**/
+.banner .shi{
+	float: right;
+	width: 361px;
+	height: 340px;
+}
+.banner .shi h2{
+	font-size: 22px;
+	margin:86px 0 20px 56px;
+	letter-spacing: 3px;
+}
+.banner .shi dd{
+	font-size: 12px;
+	margin:0 0 68px 56px;
+}
+.banner .shi p{
+	font-size: 20px;
+	margin:10px 0 10px 58px;
+}
+.banner .shi mark{
+	display:block;
+	color:#fff;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius:5px;
+	margin-left: 58px;
+	background: #626262;
+}
+.banner .shi mark a{
+	color: #fff;
+}
+#ul1{
+	position: absolute;
+	right: 80px;
+	bottom:114px;
+}
+#ul1 li{
+	position: relative;
+	float: left;
+	width: 12px;
+	height: 12px;
+	background:#d87730;
+	border-radius: 50%;
+	border:1px solid #d87730;
+	margin-right: 10px;
+	/*display: flex;
+	justify-content: center;
+	align-items: center;.*/
+}
+#ul1 li p{
+	position: absolute;
+	top: 0px;
+	left:0px;
+	width: 10px;
+	height: 10px;
+	background:#d87730;
+	border-radius: 50%;
+	box-shadow: 0px 0px 0px 0px;
+	border:1px solid #fff;
+}
+
+.six{
+	width: 1000px;
+	height: 750px;	
+	margin:0 auto;
+	margin-top:20px;
+}
+.six li{
+	float: left;
+	width: 318px;
+	height: 364px;
+	margin-bottom:20px;
+	background: #ddd;
+}
+.six li.tu{
+	margin:0 22px;
+}
+
+.six li>div{
+	width: 278px;
+	height: 45px;
+	line-height: 45px;
+	padding:0 0px 0 50px;
+}
+.six li>div b{
+	color: #c13735;
+	font-size:16px;
+}
+.six li>div mark{
+	cursor: pointer;
+	color:#fff;
+	padding: 3px 8px;
+	border-radius: 5px;
+	margin-left: 80px;
+	background: #5f5f5f;
+}
+
+.datu{
+	width:1360px;
+	height:611px;
+	margin:0 auto;
+	background: url(../images/1_79.jpg) no-repeat;
+	background-size: 100%;
+	overflow: hidden;
+}
+.gong{
+	width: 1000px;
+	margin:0 auto;
+	overflow: hidden;
+	color: #fff;
+}
+.gong b{
+	cursor: pointer;
+}
+.gong .top img.i1{
+	height: 259px;
+	width: 307px;
+}
+.gong .top img.i2{
+	width: 688px;
+	
+}
+.gong .top a{
+	position: relative;
+}
+.gong .top a p{
+	position: absolute;
+	top: -236px;
+	left: 54px;
+	width: 350px;
+
+}
+.gong .left{
+	width: 670px;
+}
+.gong .left ul li{
+	float: left;
+	width: 670px;
+	height: 303px;
+	text-align: center;
+}
+.gong .left ul li:nth-child(1) img{
+	width: 670px;
+	height: 303px;
+}
+.gong .left ul li:nth-child(2){
+	width: 335px;
+	height: 303px;
+	background: #ebb23f;
+}
+li.wen h3{
+	margin:100px 0 10px 0;
+	font-size:24px;
+	font-weight: normal;
+}
+li.wen i{
+	font-style: normal;
+}
+li.wen p{
+	margin-top: 20px;
+}
+li.wen p span{
+	position: relative;
+}
+li.wen p b{
+	padding:5px 45px 5px 5px;
+	border:1px solid #fff;
+	width: 50px;
+	background: 
+}
+li.wen p img{
+	position: absolute;
+	top: -2px;
+	right: -41px;
+	width: 25px;
+}
+.gong .left ul li:nth-child(3){
+	width: 335px;
+	height: 303px;
+}
+.gong .left ul li:nth-child(3) img{
+	width: 335px;
+	height: 303px;
+}
+.gong .left ul li:nth-child(4){
+	width: 225px;
+	height: 303px;
+}
+.gong .left ul li:nth-child(4) img{
+	width: 225px;
+	height: 303px;
+}
+.gong .left ul li:nth-child(5){
+	width: 445px;
+	height: 303px;
+}
+.gong .left ul li:nth-child(5) img{
+	width: 445px;
+	height: 303px;
+}
+
+
+.gong .right{
+	width: 330px;
+}
+.gong .right ul li{
+	float: left;
+	width:330px;
+	height: 303px;
+	text-align: center;
+}
+.gong .right ul li:nth-child(1){
+	background: #7bcec4;
+}
+.gong .right ul li:nth-child(2){
+	height: 151.5px;
+	width: 330px;
+}
+.gong .right ul li:nth-child(2) img{
+	height: 151.5px;
+	width: 330px;
+}
+.gong .right ul li:nth-child(3){
+	background: #ff9b6d;
+}
+.gong .right ul li:nth-child(4){
+	height: 151.5px;
+	width: 330px;
+}
+.gong .right ul li:nth-child(4) img{
+	height: 151.5px;;
+	width: 330px;
+}
+.footer{
+	margin:0 auto;
+	width:1360px;
+}
+.footer img{
+	margin:0 auto;
+	width:1360px;
+}
